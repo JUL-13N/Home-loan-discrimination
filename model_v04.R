@@ -99,7 +99,6 @@ df_wash16 <- df_wash16[!rows_to_remove, ]
 df_wash16 <- df_wash16[, !missing_percentage > threshold]
 
 
-
 # Find column names in df1 that are not in df2
 unique_to_df16 <- setdiff(names(df_wash16), names(df_wash16_raw))
 
@@ -116,8 +115,7 @@ print(paste("Column added to the original data frame:", paste(unique_to_df16, co
 total_na <- sum(is.na(df_wash16))
 print(paste("Total missing values in the  data frame:", total_na))
 
-
-write.csv(df_wash16, "df_wash16_v04.csv")
+# write.csv(df_wash16, "df_wash16_v04.csv")
 
 ## Performs stratified random split of the data set
 TrainingIndex <- createDataPartition(df_wash16$loan_status, p=0.8, list = FALSE)
