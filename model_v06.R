@@ -3,7 +3,7 @@
 ## 12/09/23 - 12/13/23             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 12/13/23 model_v06: Factorized the dependent variable vector.
+## 12/14/23 model_v06: Factorized the dependent variable vector.
 ## 12/13/23 model_v05: Enhanced missing value logic and algorithm run-time.
 ## 12/12/23 model_v04: Identifying and handling missing values.
 ## 12/11/23 model_v03: Removing redundant and duplicate values.
