@@ -1,8 +1,10 @@
 #####################################
 ## Julien J. Simons                ##
-## December 9, 2023                ##
-## https://github.com/JulienSimons  ##
+## 12/09/23 - 12/13/23             ##
+## https://github.com/JulienSimons ##
 #####################################
+## v04: Identifying and handling missing values.
+## v03: Removing redundant and duplicate values.
 
 ## Import libraries.
 library(randomForest)
