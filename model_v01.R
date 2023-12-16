@@ -3,6 +3,7 @@
 ## December 8, 2023                ##
 ## http://github.com/JulienSimons  ##
 #####################################
+## 12/08/23 model_v01: Does discrimination exist in home loans? 
 
 ## Import libraries.
 library(randomForest)
