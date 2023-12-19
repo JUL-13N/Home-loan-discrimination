@@ -9,7 +9,7 @@
 library(shiny)
 library(stringr) # For the str_to_title function.
 
-## Training set
+## Training set.
 TrainSet <- read.csv("training.csv", header = TRUE)
 TrainSet <- TrainSet[ , -1]
 
