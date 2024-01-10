@@ -1,4 +1,4 @@
-# home-loans Machine Learning Web Application
+# home-loans : Machine Learning Web Application
 The home loan predictor machine learning web application is built using R (Shiny). It creates an interactive website with categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan prediction.
 
 The alpha release for the home-loan machine learning dataset is a preliminary version of that contains information about the applicants, the loans, and the outcomes of the loan applications. The dataset is used to train and test a Random Forest machine learning model that can predict if an applicant will get the home loan accepted or not, based on various features such as income, loan amount, property type, etc.
