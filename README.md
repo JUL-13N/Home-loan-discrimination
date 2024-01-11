@@ -1,4 +1,4 @@
-# Home-loans : Machine Learning Web Application
+# Home-loans : Machine Learning Interactive Web Application
 The home loan predictor machine learning web application is built using R (Shiny). It creates an interactive website with categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan prediction.
 
 Race/Gender Discrimination Analysis
