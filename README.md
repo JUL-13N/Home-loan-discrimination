@@ -1,7 +1,7 @@
 # Home-loans : Machine Learning Interactive Web Application
 The home loan predictor machine learning web application is built using R (Shiny). It creates an interactive website with categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan prediction.
 
-Race/Gender Discrimination Analysis
+Race/Gender Algorithmic Discrimination Analysis
 ===
 Algorithmic discrimination is the unfair treatment of people by automated systems based on their protected characteristics, such as race or gender. The following dataset can be used to analyze if there is any evidence of race or gender discrimination in the loan approval process by comparing the acceptance rates and the loan terms across different groups of applicants. When removing these features from the initial dataset before the model is trained, the prediction results should see no change if discrimination is not a factor for home loan approval/denial. In this dataset, there is zero discrimination.
 
