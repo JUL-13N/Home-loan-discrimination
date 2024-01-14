@@ -1,5 +1,5 @@
 # Home-loans : Machine Learning Interactive Web Application
-The home loan machine learning interactive web application is built using R (Shiny). The model predicts loan approvals based on user input with an algorithmic discrimination analysis to check for bias against race or gender in the loan process. The website features categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan prediction.
+The home loan machine learning interactive web application is built using R (Shiny). The model predicts loan approvals based on user input with an algorithmic discrimination analysis to check for bias against race or gender in the loan process. The website features categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan application prediction.
 
 Race/Gender Discrimination Analysis
 ===
