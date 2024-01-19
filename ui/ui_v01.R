@@ -7,7 +7,7 @@
 
 library(shiny)
 
-## Training set
+## Training set.
 TrainSet <- read.csv("training.csv", header = TRUE)
 TrainSet <- TrainSet[,-1]
 
@@ -20,10 +20,10 @@ TrainSet <- TrainSet[,-1]
 
 pageWithSidebar(
 
-  # Page header
+  ## Page header.
   headerPanel('Iris Predictor'),
 
-  # Input values
+  ## Input values.
   sidebarPanel(
     HTML("<h3>Input parameters</h4>"),
     selectInput(inputId = "applicant_sex_name", label = "Gender", 
