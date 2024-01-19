@@ -34,9 +34,6 @@ colnames(TrainSet) <- stylized_names
 ## Use these values below for the sliderInput.
 # unique <- unique(TrainSet$applicant_race_name_1)
 
-## Print the unique values.
-# print(unique)
-
 ## Need to remove Loan Sequence Number and Respondent ID...
 # labels <- c("County Average Income","County Poupulation","County Minority Population",
 #             "County Home Units","County Family Units","Loan Amount","County Median Family Income",
