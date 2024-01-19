@@ -3,8 +3,8 @@
 ## 12/08/23 - 01/19/23             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 01/19/23 model_v22: Increasing model parameters and memory required.
-## 12/28/23 model_v16: Factored all character vectors.
+## 01/19/23 model_v11: Increasing model parameters and memory required.
+## 12/28/23 model_v08: Factored all character vectors.
 ## 12/15/23 model_v07: Enhancing reproducibility of results.
 ## 12/14/23 model_v06: Factorizing dependent variable vector.
 ## 12/13/23 model_v05: Enhancing missing value logic and algorithm run-time.
