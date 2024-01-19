@@ -3,14 +3,14 @@
 ## 12/08/23 - 12/19/23             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 12/20/23 v03: Fixing vector ordering of reactive value input.
+## 12/20/23 v03: Pairing numeric slider labels with their stylized name.
 ## 12/19/23 v02: Define input selectors or sliders based on the given data.
 ## 12/15/23 v01: Building an interactive web UI with drop-down input selectors.
 
 library(shiny)
 library(stringr) # For the str_to_title function.
 
-## Training set
+## Training set.
 TrainSet <- read.csv("training.csv", header = TRUE)
 TrainSet <- TrainSet[ , -1]
 
@@ -30,7 +30,7 @@ stylized_name_list <- str_to_title(gsub("_", " ", raw_names))
 ## pagewithSidebar or fluidPage
 fluidPage(
 
-  # Page header
+  ## Page header.
   headerPanel('Home Loan Predictor'),
 
   sidebarPanel(
