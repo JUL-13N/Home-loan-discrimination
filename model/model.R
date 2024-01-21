@@ -1,9 +1,10 @@
 #####################################
 ## Julien J. Simons                ##
-## 12/08/23 - 01/19/23             ##
+## 12/08/23 - 01/20/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 01/19/23 model_v11: Increasing model parameters and memory required.
+## 01/20/24 model_v12: Enhancing model parameters and pruning poor vectors.
+## 01/19/24 model_v11: Increasing model parameters and memory required.
 ## 12/28/23 model_v08: Factored all character vectors.
 ## 12/15/23 model_v07: Enhancing reproducibility of results.
 ## 12/14/23 model_v06: Factorizing dependent variable vector.
@@ -302,11 +303,12 @@ costMatrix <- matrix(c(0, 1, 10, 0), nrow = 2)
 
 ## Building Random forest model.
 ## [ Parameters ]
-## ntree: number of trees
+## ntree: number of trees, ntree = 951, optimizing means squared error [where f'(x) = 0 and f''(x) > 0]
 ## mtry: the number of variables considered at each split.
 ##       There are a total of 24 independent variables, so only allowing half
 ##       to be considered for a tree node will help reduce the weight from some
 ##       redundant or irrelevant vectors.
+##       mtry = √20 ≈ 5, square root of total independent vectors.
 ## cutoff: a sample is classified as positive if the predicted probability of
 ##         the positive class is greater than 70%. This threshold will help
 ##         reduce the primary issue of false positives from the prediction results.
