@@ -3,6 +3,7 @@
 ## 12/08/23 - 12/15/23             ##
 ## https://github.com/JulienSimons ##
 #####################################
+## 12/22/23 model_v08: Reducing model size by 80% for easier testing.
 ## 12/15/23 model_v07: Enhancing reproducibility of results.
 ## 12/14/23 model_v06: Factorizing dependent variable vector.
 ## 12/13/23 model_v05: Enhancing missing value logic and algorithm run-time.
