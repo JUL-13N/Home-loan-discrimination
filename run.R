@@ -4,7 +4,6 @@
 ## https://github.com/JulienSimons ##
 #####################################
 ## Making port environment for gateway connection.
-
 library(shiny)
 
 ## If there is no default port environment variable set on the local machine,
