@@ -4,7 +4,7 @@
 ## https://github.com/JulienSimons ##
 #####################################
 
-## Install packages if not already installed.
+## Installing packages if not already installed. 
 my_packages = c("randomForest", "data.table")
 
 install_if_missing = function(p) {
