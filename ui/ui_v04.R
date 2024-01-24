@@ -3,10 +3,10 @@
 ## 12/08/23 - 01/18/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 01/18/24 v04: Normalizing distribution of numeric slider selection.
-## 12/20/23 v03: Pairing numeric slider labels with their stylized name.
-## 12/19/23 v02: Define input selectors or sliders based on the given data.
-## 12/15/23 v01: Building an interactive web UI with drop-down input selectors.
+## 01/18/24 ui_v04: Normalizing distribution of numeric slider selection.
+## 12/20/23 ui_v03: Pairing numeric slider labels with their stylized name.
+## 12/19/23 ui_v02: Define input selectors or sliders based on the given data.
+## 12/15/23 ui_v01: Building an interactive web UI with drop-down input selectors.
 
 library(shiny)
 library(stringr) # For using str_to_title function.
