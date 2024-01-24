@@ -3,8 +3,8 @@
 ## 12/08/23 - 12/19/23             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 12/19/23 v02: Define input selectors or sliders based on the given data.
-## 12/15/23 v01: Building an interactive web UI with drop-down input selectors.
+## 12/19/23 ui_v02: Define input selectors or sliders based on the given data.
+## 12/15/23 ui_v01: Building an interactive web UI with drop-down input selectors.
 
 library(shiny)
 library(stringr) # For the str_to_title function.
