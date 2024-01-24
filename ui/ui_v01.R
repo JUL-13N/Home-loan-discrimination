@@ -3,7 +3,7 @@
 ## 12/08/23 - 12/15/23             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 12/15/23 v01: Building an interactive web UI with drop-down input selectors.
+## 12/15/23 ui_v01: Building interactive web UI with drop-down input selectors.
 
 library(shiny)
 
