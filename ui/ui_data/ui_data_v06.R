@@ -32,15 +32,12 @@ TrainSet <- TrainSet[ , -1]
 ## which gives the number of columns in the data frame.
 TrainSet <- TrainSet[ , -ncol(TrainSet)]
 
-## Get the column names.
-raw_names <- colnames(TrainSet)
-
 ## || CREATING DATA FRAME ||
 ## _________________________
 ## Create data frame sharing the column vectors (raw names) of the TrainSet.
 ## From each of the seven rows represents a calculated value for the UI data
 ## representation schema.
-ui_dataframe <- data.frame(matrix(ncol = 7, nrow = (length(raw_names)-1)))
+ui_dataframe <- data.frame(matrix(ncol = 7, nrow = (length(TrainSet)-1)))
 
 ## Name the rows in numeric order for the new data frame.
 colnames(ui_dataframe) <- c("column_name",
