@@ -3,6 +3,7 @@
 ## 12/08/23 - 01/24/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
+## 01/24/24 ui_data_v03: Writing CSV file from the computation outputs.
 ## 01/24/24 ui_data_v02: Revising data frame queries and data manipulation.
 ## 01/23/24 ui_data_v01: Preserving website memory by pre-computing data for UI.
 
@@ -32,7 +33,7 @@ raw_names <- colnames(TrainSet)
 ## Create data frame sharing the column vectors (raw names) of the TrainSet.
 ## From each of the seven rows represents a calculated value for the UI data
 ## representation schema.
-ui_dataframe <- data.frame(matrix(ncol = length(raw_names), nrow = 7))
+ui_dataframe <- data.frame(matrix(ncol = length(raw_names), nrow = 6))
 
 ## Add a placeholder row_name column in order to format the data frame.
 #ui_dataframe[ , 1] <- NULL
@@ -43,13 +44,12 @@ ui_dataframe <- data.frame(matrix(ncol = length(raw_names), nrow = 7))
 colnames(ui_dataframe) <- c(raw_names)
 
 ## Name the rows in numeric order for the new data frame.
-row.names(ui_dataframe) <- c( "stylized_name", # [1]
-                             "numeric_slider", # [2]
-                                "mean_column", # [3]
-                                    "min_val", # [4]
-                                    "max_val", # [5]
-                                  "step_size", # [6]
-                               "menu_choices") # [7]
+row.names(ui_dataframe) <- c( "stylized_name",
+                              "numeric_slider",
+                              "mean_column", 
+                              "min_val",
+                              "max_val",
+                              "step_size")
 
 ## Replace all the NA values with zeros in a data frame, because missing
 ## values are not allowed in subscripted assignments of data frames
@@ -58,7 +58,10 @@ row.names(ui_dataframe) <- c( "stylized_name", # [1]
 #print(ui_dataframe)
 ## Applying function() to each element of the vector of
 ## column names (names(TrainSet) of the data frame.
-lapply(seq_along(TrainSet), function(i) {
+#lapply(seq_along(TrainSet), function(i)
+i <- 0
+while (i < length(TrainSet)){
+  i <- (i+1)
   column_name <- names(TrainSet)[i]
   
   ## Append the column name (empty) to the i column of the new data frame.
@@ -72,8 +75,8 @@ lapply(seq_along(TrainSet), function(i) {
   # ui_dataframe[(row.names(ui_dataframe))["stylized_name"],i] <- stylized_name
   # ui_dataframe[(row.names(ui_dataframe))["stylized_name",i]] <- stylized_name
   ui_dataframe["stylized_name",i] <- stylized_name
+  # print(ui_dataframe)
   
-  print(ui_dataframe)
   ## If the column is numeric, assign TRUE to the numeric slider row variable.
   if (is.numeric(TrainSet[[column_name]])) {
     ui_dataframe["numeric_slider",i] <- TRUE
@@ -144,10 +147,10 @@ lapply(seq_along(TrainSet), function(i) {
     
     ## From every single value from the given column of the data frame,
     ## append each value so that it appears only once.
-    menu_choices <- unique(TrainSet[[column_name]])
-    ui_dataframe["menu_choices",i] <- list(menu_choices)
+    #menu_choices <- unique(TrainSet[[column_name]])
+    #ui_dataframe["menu_choices",i] <- list(menu_choices)
   }
-})
+}
 
 ## Write the data frame to a csv file.
-write.table(ui_dataframe, file = "ui_data.csv", sep = ",", row.names = TRUE, col.names = TRUE)
+write.table(ui_dataframe, file = "ui_data.csv", sep = ",", row.names = TRUE, col.names = TRUE, quote = FALSE)
