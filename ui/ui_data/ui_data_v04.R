@@ -3,7 +3,7 @@
 ## 12/08/23 - 01/24/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 01/25/24 ui_data_v04: Improved row and column positions of data frame.
+## 01/25/24 ui_data_v04: Improving row and column positions of data frame.
 ## 01/24/24 ui_data_v03: Writing CSV file from the computation outputs.
 ## 01/24/24 ui_data_v02: Revising data frame queries and data manipulation.
 ## 01/23/24 ui_data_v01: Preserving website memory by pre-computing data for UI.
