@@ -5,7 +5,7 @@
 #####################################
 ## 01/25/24 ui_data_B_v01: Computing unique, non-numeric data for UI selectInput.
 
-## The ui.R file will read the created ui_data_B.csv file to generate
+## The ui.R file will read the created ui_data-B.csv file to generate
 ## unique, non-numeric values for the selection menus in order to
 ## collect the user input for the machine learning model prediction.
 
