@@ -4,6 +4,7 @@
 ## https://github.com/JulienSimons ##
 #####################################
 ## 01/23/24 ui_data_v01: Preserving website memory by pre-computing data for UI.
+## Compatible with ui_v06 and future versions.
 
 ## The ui.R file will read the created ui_data.csv file to generate the normal 
 ## distribution range and steps of the numeric sliders and selection menus 
