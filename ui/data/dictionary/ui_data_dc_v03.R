@@ -5,9 +5,9 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 01/25/24 ui_data_B_v03: Utilizing a dictionary for saving unique vectors.
-## 01/25/24 ui_data_B_v02: Fixing the dimensions of the data frame output.
-## 01/25/24 ui_data_B_v01: Computing unique, non-numeric data for UI selectInput.
+## 01/25/24 ui_data_dc_v03: Utilizing a dictionary for saving unique vectors.
+## 01/25/24 ui_data_dc_v02: Fixing the dimensions of the data frame output.
+## 01/25/24 ui_data_dc_v01: Computing unique, non-numeric data for UI selectInput.
 
 ## || PURPOSE ||
 ## _____________
