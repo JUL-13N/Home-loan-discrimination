@@ -3,12 +3,12 @@
 ## 12/08/23 - 01/24/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
-## 01/25/24 ui_data_v04: Improving row and column positions of data frame.
-## 01/24/24 ui_data_v03: Writing CSV file from the computation outputs.
-## 01/24/24 ui_data_v02: Revising data frame queries and data manipulation.
-## 01/23/24 ui_data_v01: Preserving website memory by pre-computing data for UI.
+## 01/25/24 ui_data_df_v04: Improving row and column positions of data frame.
+## 01/24/24 ui_data_df_v03: Writing CSV file from the computation outputs.
+## 01/24/24 ui_data_df_v02: Revising data frame queries and data manipulation.
+## 01/23/24 ui_data_df_v01: Preserving website memory by pre-computing data for UI.
 
-## The ui.R file will read the created ui_data.csv file to generate the normal 
+## The ui.R file will read the created ui_data_df.csv file to generate the normal 
 ## distribution range and steps of the numeric sliders and selection menus 
 ## in order to collect the user input for the machine learning model prediction.
 
