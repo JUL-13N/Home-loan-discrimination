@@ -37,7 +37,7 @@ raw_names <- colnames(TrainSet)
 ui_dataframe <- data.frame(matrix(ncol = length(raw_names), nrow = 6))
 
 ## Add a placeholder row_name column in order to format the data frame.
-#ui_dataframe[ , 1] <- NULL
+# ui_dataframe[ , 1] <- NULL
 # ui_dataframe$row_name <- NULL
 
 ## Assign the raw names to the columns of the new data frame.
@@ -59,7 +59,7 @@ row.names(ui_dataframe) <- c( "stylized_name",
 #print(ui_dataframe)
 ## Applying function() to each element of the vector of
 ## column names (names(TrainSet) of the data frame.
-#lapply(seq_along(TrainSet), function(i)
+# lapply(seq_along(TrainSet), function(i)
 i <- 0
 while (i < length(TrainSet)){
   i <- (i+1)
