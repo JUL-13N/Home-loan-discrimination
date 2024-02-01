@@ -5,13 +5,13 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 1/31 13: Curate the footer on each page for mobile devices using JavaScript. 
-## 1/30 12: Analyzing the plots...  plots in new Plots panel section using pre-computed data.
-## 1/30 11: Calculating plots in new Plots panel section using pre-computed data.
-## 1/29 10: Adding navigation bar and About Me section.
-## 1/28 09: Fixing input data type and categorical factor options.
-## 1/27 08: Adding JavaScript for mobile device detection and page compatibility.
-## 1/27 07: Adding HTML/CSS for styling page elements.
+## 01/31/24 ui_v13: Curate the footer on each page for mobile devices using JavaScript. 
+## 01/30 12: Analyzing the plots in new panel section using pre-computed data.
+## 01/30 11: Calculating plots in new Plots panel section using pre-computed data.
+## 01/29 10: Adding navigation bar and About Me section.
+## 01/28 09: Fixing input data type and categorical factor options.
+## 01/27 08: Adding JavaScript for mobile device detection and page compatibility.
+## 01/27 07: Adding HTML/CSS for styling page elements.
 ## 01/26/24 ui_v06: Enhancing the automated numeric slider distribution.
 ## 01/23/24 ui_v05: Enhancing the automated numeric slider distribution.
 ## 01/18/24 ui_v04: Normalizing distribution of numeric slider selection.
