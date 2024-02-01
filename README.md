@@ -1,5 +1,5 @@
 # Random Forest Regression on Discrimination of Home Loan Applications
-The home loan machine learning [interactive web application](https://juliensimons.shinyapps.io/home-loan/) is built using R (Shiny). The supervised regression model predicts loan approvals based on user input with an algorithmic discrimination analysis to check for bias against races, genders, and ethnicities in the loan process. The website features categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan application prediction.
+The [home loan machine learning interactive web application](https://juliensimons.shinyapps.io/home-loan/) is built using R (Shiny). The supervised regression model predicts loan approvals based on user input with an algorithmic discrimination analysis to check for bias against races, genders, and ethnicities in the loan process. The website features categorical selections and numeric slider labels to allow site visitors to test the model and seek a personalized experience to the home loan application prediction.
 
 Race/Gender Discrimination Analysis
 ===
