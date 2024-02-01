@@ -5,7 +5,7 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 01/31/24 ui_v13: Curate the footer on each page for mobile devices using JavaScript. 
+## 01/31/24 ui_v13: Curate the footer on each page for mobile devices using JavaScript.
 ## 01/30 12: Analyzing the plots in new panel section using pre-computed data.
 ## 01/30 11: Calculating plots in new Plots panel section using pre-computed data.
 ## 01/29 10: Adding navigation bar and About Me section.
