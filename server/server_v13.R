@@ -5,7 +5,7 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 01/31/24 server_v13: Analyzing vector importance and algorithmic discrimination.
+## 01/31/24 server_v13: Analyzing vector importance and algorithmic discrimination. 
 ## 01/30/24 12: Creating a framework of new page input for plotting pre-computed data.
 ## 01/30/24 11: Fixing input data type and categorical factor options.
 ## 01/29/24 10: Binding alphabetically ordered vector factors and levels.
