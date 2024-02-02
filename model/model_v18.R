@@ -5,8 +5,8 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 01/31/23 model_v18: Partitioning data to 80% to fit memory constraints of a larger website. 
-## 01/30/23 model_v17: Partitioning and factoring data to fit memory constraints. 
+## 01/31/23 model_v18: Partitioning data to 80% to fit memory constraints of a larger website.
+## 01/30/23 model_v17: Partitioning and factoring data to fit memory constraints.
 ## 01/30/23 model_v16: Recording various variable and model plots. 
 ## 01/29/23 model_v15: Fixing categorical and dependent variable factor levels.
 ## 01/26/23 model_v14: Updating independent vectors (9) and model parameters.
