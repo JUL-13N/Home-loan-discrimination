@@ -1,18 +1,18 @@
 #####################################
 ## Julien J. Simons                ##
-## 12/08/23 - 01/25/24             ##
+## 12/08/23 - 01/30/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
 ## || LOGS ||
 ## __________
-## 01/30/24 ui_data_B_v04: Updating input data set with greater data range.
-## 01/25/24 ui_data_B_v03: Utilizing a dictionary for saving unique vectors.
-## 01/25/24 ui_data_B_v02: Fixing the dimensions of the data frame output.
-## 01/25/24 ui_data_B_v01: Computing unique, non-numeric data for UI selectInput.
+## 01/30/24 ui_data_dc_v04: Updating input data set with greater data range.
+## 01/25/24 ui_data_dc_v03: Utilizing a dictionary for saving unique vectors.
+## 01/25/24 ui_data_dc_v02: Fixing the dimensions of the data frame output.
+## 01/25/24 ui_data_dc_v01: Computing unique, non-numeric data for UI selectInput.
 
 ## || PURPOSE ||
 ## _____________
-## The ui.R file will read the created ui_data_B.csv file to generate
+## The ui.R file will read the created ui_data_dc.csv file to generate
 ## unique, non-numeric values for the selection menus in order to
 ## collect the user input for the machine learning model prediction.
 
