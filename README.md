@@ -3,7 +3,7 @@ The home loan machine learning interactive web application is built using R (Shi
 
 Visit the interactive web application here: [https://juliensimons.shinyapps.io/home-loan/](https://juliensimons.shinyapps.io/home-loan/).
 
-Race/Gender Discrimination Analysis
+Algorithmic Discrimination Analysis
 ===
 It is crucial to consider ethical implications, especially when vectors for races, genders, and ethnicities are included. Algorithmic discrimination is the unfair treatment of people by automated systems based on their protected characteristics. The following dataset can be used to analyze if there is any evidence of discrimination in the loan approval process by comparing the acceptance rates and the loan terms across different groups of applicants. By analyzing the weight of the feature vectors in the Random Forest model, the dataset shows notable evidence of discrimination. To be denied a home loan because of one's race and ethnicity is a serious reason why data scientists must carefully consider feature vectors and audit the model's performance to protect against unjust bias and discriminatory behavior.
 
