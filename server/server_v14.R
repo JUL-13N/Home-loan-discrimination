@@ -5,7 +5,7 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 02/05/24 server_v14: Refining feature vector analysis analysis.
+## 02/05/24 server_v14: Refining feature vector analysis and content styling.
 ## 01/31/24 server_v13: Analyzing vector importance and algorithmic discrimination.
 ## 01/30/24 12: Creating a framework of new page input for plotting pre-computed data.
 ## 01/30/24 11: Fixing input data type and categorical factor options.
