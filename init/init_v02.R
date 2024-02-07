@@ -5,7 +5,7 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 02/05/24 init_v02: Installing all necessary packages if not yet installed. 
+## 02/05/24 init_v02: Installing all necessary packages if not yet installed.
 ## 12/19/23 init_v01: Installing packages if not already installed.
 
 ## Installing all necessary packages if not yet installed. 
