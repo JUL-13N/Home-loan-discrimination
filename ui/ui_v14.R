@@ -1,17 +1,18 @@
 #####################################
 ## Julien J. Simons                ##
-## 12/08/23 - 01/31/24             ##
+## 12/08/23 - 02/05/24             ##
 ## https://github.com/JulienSimons ##
 #####################################
 ## || LOGS ||
 ## __________
-## 1/31 13: Curate the footer on each page for mobile devices using JavaScript. 
-## 1/30 12: Analyzing the plots...  plots in new Plots panel section using pre-computed data.
-## 1/30 11: Calculating plots in new Plots panel section using pre-computed data.
-## 1/29 10: Adding navigation bar and About Me section.
-## 1/28 09: Fixing input data type and categorical factor options.
-## 1/27 08: Adding JavaScript for mobile device detection and page compatibility.
-## 1/27 07: Adding HTML/CSS for styling page elements.
+## 02/05/24 ui_v14: Updating page content and refining style in About section.
+## 01/31/24 ui_v13: Curate the footer on each page for mobile devices using JavaScript.
+## 01/30 12: Analyzing the plots in new panel section using pre-computed data.
+## 01/30 11: Calculating plots in new Plots panel section using pre-computed data.
+## 01/29 10: Adding navigation bar and About Me section.
+## 01/28 09: Fixing input data type and categorical factor options.
+## 01/27 08: Adding JavaScript for mobile device detection and page compatibility.
+## 01/27 07: Adding HTML/CSS for styling page elements.
 ## 01/26/24 ui_v06: Enhancing the automated numeric slider distribution.
 ## 01/23/24 ui_v05: Enhancing the automated numeric slider distribution.
 ## 01/18/24 ui_v04: Normalizing distribution of numeric slider selection.
@@ -263,9 +264,9 @@ tabPanel(title = "Analysis", style = "text-align: center; padding-left: 18px; pa
     ),
   ),
 
-## || NEW PAGE: ABOUT ME ||
+## || NEW PAGE: ABOUT ||
 ## ________________________
-## About Me page with a panel in the navigation bar.
+## About page with a panel in the navigation bar.
 tabPanel("About",
          style = "text-align: left; padding-left: 30px; padding-right: 30px; padding-top: 1px; background-color: #f5f5f5;",
          HTML("
@@ -273,13 +274,14 @@ tabPanel("About",
 
 <h4>I’m a data scientist with a passion for building machine learning applications with a particular interest in algorithmic discrimination for financial data.</h4>
 
-My expertise is machine learning and AI model training using data manipulation,
-processing, and visualization for financial and clinical environments.
-I have over 7 years of experience managing and analyzing big data from financial
+Over 7 years of experience managing and analyzing big data from financial
 records, hospital reports, specimen samples, blockchains, websites,
-social media, games, and cloud databases. I utilize Python, R (Shiny), Power BI,
-SQL, Git, Java, and various languages and frameworks to create interactive web
-applications that reveal big data trends.
+social media, games, and cloud databases. Specialized in training machine
+learning and Al models using data manipulation, processing, and visualization
+to identify trends and develop solutions for financial and clinical environments.
+I utilize Python, R Shiny, R, Power BI, Git, SQL, Java, JavaScript, HTML and CSS
+among various languages and frameworks to create interactive web applications and
+dashboards for revealing insightful results and tailored solutions from big data.
 <br>
 <br>
 
