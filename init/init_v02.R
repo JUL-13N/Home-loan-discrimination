@@ -1,10 +1,14 @@
 #####################################
 ## Julien J. Simons                ##
-## 12/08/23 - 12/19/23             ##
+## 12/08/23 - 02/05/24            ##
 ## https://github.com/JulienSimons ##
 #####################################
+## || LOGS ||
+## __________
+## 02/05/24 init_v02: Installing all necessary packages if not yet installed. 
+## 12/19/23 init_v01: Installing packages if not already installed.
 
-## Installing packages if not already installed. 
+## Installing all necessary packages if not yet installed. 
 my_packages = c("shiny", "data.table", "randomForest", "ggplot2",
                 "dplyr", "reshape2", "shinythemes")
 
