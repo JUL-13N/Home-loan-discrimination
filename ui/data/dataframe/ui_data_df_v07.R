@@ -5,7 +5,7 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 01/30/24 ui_data_v07: Updating input data set with greater data range.
+## 01/30/24 ui_data_v07: Processing distrubution on truncated training dataset.
 ## 01/25/24 ui_data_v06: Enhancing automated variable naming style convention.
 ## 01/25/24 ui_data_v05: Transposing and cleaning data with only column names.
 ## 01/25/24 ui_data_v04: Improving row and column positions of data frame.
