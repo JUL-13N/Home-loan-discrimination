@@ -5,7 +5,7 @@
 #####################################
 ## || LOGS ||
 ## __________
-## 01/30/24 ui_data_dc_v04: Updating input data set with greater data range.
+## 01/30/24 ui_data_dc_v04: Updating input dataset from the training data partition.
 ## 01/25/24 ui_data_dc_v03: Utilizing a dictionary for saving unique vectors.
 ## 01/25/24 ui_data_dc_v02: Fixing the dimensions of the data frame output.
 ## 01/25/24 ui_data_dc_v01: Computing unique, non-numeric data for UI selectInput.
@@ -27,7 +27,7 @@ TrainSet <- read.csv("training.csv", header = TRUE)
 ## Remove numeric placeholder column.
 TrainSet <- TrainSet[ , -1]
 
-## The last column of the TrainSet data frame is the dependent variable. 
+## The last column of the TrainSet data frame is the dependent variable.
 ## It requires no input, since its value will be predicted.
 ## Remove the last column of the data frame using the ncol() function,
 ## which gives the number of columns in the data frame.
