@@ -31,7 +31,7 @@ TrainSet <- read.csv("training.csv", header = TRUE)
 ## Remove numeric placeholder column.
 TrainSet <- TrainSet[ , -1]
 
-## The last column of the TrainSet data frame is the dependent variable. 
+## The last column of the TrainSet data frame is the dependent variable.
 ## It requires no input, since its value will be predicted.
 ## Remove the last column of the data frame using the ncol() function,
 ## which gives the number of columns in the data frame.
