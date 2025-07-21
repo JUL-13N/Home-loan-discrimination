@@ -1,7 +1,7 @@
 #####################################
-## Julien J. Simons                ##
+## JUL-13N                         ##
 ## 12/08/23 - 02/05/24             ##
-## https://github.com/JulienSimons ##
+## https://github.com/JUL-13N      ##
 #####################################
 ## || LOGS ||
 ## __________
@@ -67,7 +67,7 @@ fluidPage(theme = shinytheme("flatly"),
 navbarPage(
   
   ## Website title.
-  title = "Julien J. Simons",
+  title = "JUL-13N",
   
   ## || MAIN PAGE: MODEL ||
   ## ______________________
@@ -200,8 +200,8 @@ navbarPage(
 ## _____________
 ## Add footers.
 tags$footer(
-  "Copyright © 2024 Julien J. Simons. ",
-  tags$a(href = "https://github.com/JulienSimons/Home-loan-discrimination", 
+  "Copyright © 2024 JUL-13N. ",
+  tags$a(href = "https://github.com/JUL-13N/Home-loan-discrimination", 
          "GitHub Repository"),
   style = "text-align: center; padding-top: 1020px; padding-left: 35px; padding-right: 35px; background-color: #f5f5f5;",
   ## Add a script tag to adjust padding dynamically.
@@ -256,8 +256,8 @@ tabPanel(title = "Analysis", style = "text-align: center; padding-left: 18px; pa
   tags$script(src = "_mobileDetection.js"),
   
   tags$footer(
-    "Copyright © 2024 Julien J. Simons. ",
-    tags$a(href = "https://github.com/JulienSimons/Home-loan-discrimination", 
+    "Copyright © 2024 JUL-13N. ",
+    tags$a(href = "https://github.com/JUL-13N/Home-loan-discrimination", 
            "GitHub Repository"),
     style = "text-align: center; padding-top: 613px; padding-bottom: 3px; marginBottom = 10px; background-color: #f5f5f5;",
     
@@ -270,7 +270,7 @@ tabPanel(title = "Analysis", style = "text-align: center; padding-left: 18px; pa
 tabPanel("About",
          style = "text-align: left; padding-left: 30px; padding-right: 30px; padding-top: 1px; background-color: #f5f5f5;",
          HTML("
-<h1><img src=\"https://media.tenor.com/SNL9_xhZl9oAAAAi/waving-hand-joypixels.gif\" alt=\"waving hand\" width='75' height='75'/> Hey, I'm Julien!</h1>
+<h1><img src=\"https://media.tenor.com/SNL9_xhZl9oAAAAi/waving-hand-joypixels.gif\" alt=\"waving hand\" width='75' height='75'/> Hey, I'm JUL-13N!</h1>
 
 <h4>I’m a data scientist with a passion for building machine learning applications with a particular interest in algorithmic discrimination for financial data.</h4>
 
@@ -290,46 +290,40 @@ solutions, and a hunger for knowledge.
 
 <p>
 How about we tackle some big data challenges together? Let's go. I'm ready to build.
-Feel free to <a href=\"mailto:Jsimons.data@gmail.com?subject=Professional Enquiry &body=Hey Julien, I was just checking your website...\"> send me an email</a>.
+Feel free to <a href=\"mailto:jul13ns10@gmail.com?subject=Professional Enquiry &body=Hey JUL-13N, I was just checking your website...\"> send me an email</a>.
 </p>
 
 <div align=center>
 
 <h4>Learn more about me in my links below.</h4>
 
-<a href=\"https://www.linkedin.com/in/Julien-Simons/\"> 
-  <img src=\"https://camo.githubusercontent.com/651ce607b3cc9e40496b0b4ebcec68c4651ade21c91d3dc7632d1b79d9394d51/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d696e666f726d6174696f6e616c3f7374796c653d666c6174266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d776869746526636f6c6f723d304437364138\" alt=\"LinkedIn Badge\" data-canonical-src=\"https://img.shields.io/badge/LinkedIn-informational?style=flat&amp;logo=linkedin&amp;logoColor=white&amp;color=0D76A8\" style=\"max-width: 100%;\">
-</a>
-<a href=\"https://www.instagram.com/jul13ns/\"> 
-  <img src=\"https://camo.githubusercontent.com/75d9afe53098840807fc338e019530f78073102fa1db27b06a2b633b3b313c0d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496e7374616772616d2d696e666f726d6174696f6e616c3f7374796c653d666c6174266c6f676f3d696e7374616772616d266c6f676f436f6c6f723d776869746526636f6c6f723d453133303643\" alt=\"Instagram Badge\" data-canonical-src=\"https://img.shields.io/badge/Instagram-informational?style=flat&amp;logo=instagram&amp;logoColor=white&amp;color=E1306C\" style=\"max-width: 100%;\">
-</a>
 <br>
 <br>
 
-<a href=\"https://github.com/JulienSimons/Home-loan-discrimination\">
-  <img style=\"margin:0.55rem\" src=\"https://github-readme-stats.vercel.app/api/pin/?username=JulienSimons&repo=Home-loan-discrimination&bg_color=2c3e50&theme=react\" />
-</a> <a href=\"https://github.com/JulienSimons/Parallel-market-trends\">
-  <img style=\"margin:0.55rem\" src=\"https://github-readme-stats.vercel.app/api/pin/?username=JulienSimons&repo=Parallel-market-trends&bg_color=2c3e50&theme=react\" />
+<a href=\"https://github.com/JUL-13N/Home-loan-discrimination\">
+  <img style=\"margin:0.55rem\" src=\"https://github-readme-stats.vercel.app/api/pin/?username=JUL-13N&repo=Home-loan-discrimination&bg_color=2c3e50&theme=react\" />
+</a> <a href=\"https://github.com/JUL-13N/Parallel-market-trends\">
+  <img style=\"margin:0.55rem\" src=\"https://github-readme-stats.vercel.app/api/pin/?username=JUL-13N&repo=Parallel-market-trends&bg_color=2c3e50&theme=react\" />
 </a>
 <br>
 
- <a href=\"https://github.com/JulienSimons\">
-  <img width='400px' alt=\"Julien J. Simons's GitHub Stats\" src=\"https://github-readme-stats.vercel.app/api?username=JulienSimons&show_icons=true&count_private=true&bg_color=2c3e50&theme=react\" />
+ <a href=\"https://github.com/JUL-13N\">
+  <img width='400px' alt=\"JUL-13N's GitHub Stats\" src=\"https://github-readme-stats.vercel.app/api?username=JUL-13N&show_icons=true&count_private=true&bg_color=2c3e50&theme=react\" />
 </a>
 
-<a href=\"https://github.com/JulienSimons\">
-  <img width='420px' alt=\"GitHub Streak Stats\" src=\"https://github-readme-streak-stats.herokuapp.com?user=JulienSimons&background=2c3e50&theme=react\">
+<a href=\"https://github.com/JUL-13N\">
+  <img width='420px' alt=\"GitHub Streak Stats\" src=\"https://github-readme-streak-stats.herokuapp.com?user=JUL-13N&background=2c3e50&theme=react\">
   </a>  
 <br>
 
-<img width='400px' alt=\"GitHub Most Used Languages\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=JulienSimons&hide=html,css&langs_count=10&bg_color=2c3e50&layout=compact&theme=react\" />
+<img width='400px' alt=\"GitHub Most Used Languages\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=JUL-13N&hide=html,css&langs_count=10&bg_color=2c3e50&layout=compact&theme=react\" />
     </a>
 </div>
 <br>
 "),
          tags$footer(
-           "Copyright © 2024 Julien J. Simons. ",
-           tags$a(href = "https://github.com/JulienSimons/Home-loan-discrimination", "GitHub Repository"),
+           "Copyright © 2024 JUL-13N. ",
+           tags$a(href = "https://github.com/JUL-13N/Home-loan-discrimination", "GitHub Repository"),
            style = "text-align: center; padding-top: -1px; padding-bottom: 3px; marginBottom = 3px; background-color: #f5f5f5;"
            ## Add a script tag to adjust padding dynamically.
            # tags$script(
