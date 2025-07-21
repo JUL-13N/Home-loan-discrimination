@@ -1,7 +1,7 @@
 /////////////////////////////////////
-// Julien J. Simons                //
+// JUL-13N                         //
 // 12/08/23 - 01/31/24             //
-// https://github.com/JulienSimons //
+// https://github.com/JUL-13N      //
 /////////////////////////////////////
 // 01/26/24 mobileDetection: JavaScript function to detect mobile devices. 
 
